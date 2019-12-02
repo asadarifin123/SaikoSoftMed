@@ -11,7 +11,7 @@ public class aktifitasMasuk extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aktifitas_masuk);
+        setContentView(R.layout.activity_masuk);
     }
 
     public void launchLogin(View view) {
