@@ -8,4 +8,10 @@
     <string name="meditasi">Meditiasi</string>
     <string name="konseling">Konseling</string>
     <string name="profile">Profile</string>
+    <string name="peringatan1">Catatan penting sebelum anda memulai:</string>
+    <string name="peringatan2">1. Alat test yang terdapat di laman ini tidak dapat digunakan sebagai acuan diagnosis, namun hanya memberi gambaran umum mengenai kondisi anda sekarang ini</string>
+    <string name="peringatan3">2. Alat test yang terdapat di laman ini masih dalam tahap pengembangan. Jawaban anda akan kami gunakan untuk pengembangan lebih lanjut secara akronim</string>
+    <string name="test1">Anda akan mengisi alat skrining depresi yang merupakan terjemahan dari Becks Depression Inventory. Mohon untuk memperhatikan hal-hal berikut:</string>
+    <string name="test2">1. Alat skrining ini tidak dapat digunakan sebagai acuan diagnosis, namun hanya memberikan gambaran umum kondisi anda saat ini.</string>
+    <string name="test3">2. Alat skrining ini masih dalam tahap pengembangan. Jawaban anda akan kami gunakan untuk pengembangan ebih lanjut.</string>
 </resources>

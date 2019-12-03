@@ -4,8 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -36,9 +38,6 @@ public class aktifitasUtama extends AppCompatActivity {
                     case R.id.meditasi_menu:
                         fragment = new MeditasiFragment();
                         break;
-                    case R.id.konseling_menu:
-                        fragment = new KonselingFragment();
-                        break;
                     case R.id.profile_menu:
                         fragment = new ProfileFragment();
                         break;
@@ -48,5 +47,9 @@ public class aktifitasUtama extends AppCompatActivity {
                 return true;
             }
         });
+    }
+    public void mulai_test(View view) {
+        Intent intent = new Intent(this, peringatan_test.class);
+        startActivity(intent);
     }
 }

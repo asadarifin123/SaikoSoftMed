@@ -7,17 +7,17 @@
     tools:context=".aktifitasUtama">
 
     <FrameLayout
+        android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/fragmentContainer"
-        />
+        android:layout_above="@+id/bottomNav"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav_menu"
-        android:id="@+id/bottomNav" />
+        android:background="#FFFFFF"
+        app:menu="@menu/bottom_nav_menu" />
 
 </RelativeLayout>

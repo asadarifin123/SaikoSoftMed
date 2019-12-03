@@ -13,10 +13,6 @@
         android:icon="@drawable/meditasi"/>
 
     <item
-        android:id="@+id/konseling_menu"
-        android:title="@string/konseling"
-        android:icon="@drawable/konseling"/>
-    <item
         android:id="@+id/profile_menu"
         android:title="@string/profile"
         android:icon="@drawable/profile"/>
